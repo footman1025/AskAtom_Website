@@ -34,7 +34,7 @@ export default function Hero() {
           </ul>
         </div>
         <figure className="hero-img">
-          <img src="images/site/hero-workstation.jpg" alt="Coding workstation with two monitors showing code" />
+          <img src="images/site/hero-workspace.jpg" alt="Laptop, desktop, tablet, and phone showing business software on a desk" />
         </figure>
       </div>
 

@@ -4,7 +4,7 @@ export default function Navbar() {
       <div className="wrap nav">
         <a className="logo" href="#top" aria-label="AskAtom Solutions LLC home">
           <img className="mark" src="favicon.png" alt="" width="40" height="40" />
-          AskAtom Solutions LLC
+          <span className="logo-name">AskAtom Solutions LLC</span>
         </a>
         <nav className="navlinks" aria-label="Main">
           <a href="#work">Services</a>

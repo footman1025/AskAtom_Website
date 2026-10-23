@@ -104,6 +104,8 @@ export const stack = [
   { group: 'Design', items: ['Figma', 'Adobe Illustrator', 'Adobe Photoshop', 'Canva'] },
 ]
 
+// These answers are also in the FAQ structured data in index.html.
+// Update both together so Google Search shows the same text.
 export const faqs = [
   {
     q: 'Who owns the code when the project is done?',

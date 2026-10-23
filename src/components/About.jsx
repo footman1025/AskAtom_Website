@@ -6,7 +6,7 @@ export default function About() {
     <section id="company">
       <div className="wrap about">
         <figure className="about-img">
-          <img src="images/site/about-office.jpg" alt="Developer working on a laptop in a bright office" loading="lazy" />
+          <img src="images/site/about-team.jpg" alt="The AskAtom team reviewing a product on a whiteboard in the office" loading="lazy" />
         </figure>
         <div className="about-text">
           <h2>About the company</h2>

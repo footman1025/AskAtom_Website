@@ -3,7 +3,7 @@ export default function Navbar() {
     <header>
       <div className="wrap nav">
         <a className="logo" href="#top" aria-label="AskAtom Solutions LLC home">
-          <img className="mark" src="favicon.svg" alt="" width="28" height="28" />
+          <img className="mark" src="favicon.png" alt="" width="40" height="40" />
           AskAtom Solutions LLC
         </a>
         <nav className="navlinks" aria-label="Main">

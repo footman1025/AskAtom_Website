@@ -50,7 +50,7 @@ export const caseStudies = [
   },
   {
     img: 'images/site/case-3.jpg',
-    alt: 'Laptop with code open in an editor',
+    alt: 'A clinic phone assistant booking appointments across several locations',
     client: '[Multi-location dental group]',
     industry: 'Healthcare',
     year: '[2026]',

@@ -22,7 +22,7 @@ export const clients = ['Medical clinics', 'Online retailers', 'Trading firms', 
 export const caseStudies = [
   {
     img: 'images/site/case-1.jpg',
-    alt: 'Developer writing code on a desktop computer',
+    alt: 'Operations dashboard with a route map, inventory, invoices, and a driver phone',
     client: '[Regional logistics company]',
     industry: 'Logistics',
     year: '[2026]',

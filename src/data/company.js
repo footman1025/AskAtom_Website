@@ -36,7 +36,7 @@ export const caseStudies = [
   },
   {
     img: 'images/site/case-2.jpg',
-    alt: 'HTML and CSS code on a screen',
+    alt: 'A fashion store moving from WooCommerce to a Shopify storefront',
     client: '[Online fashion retailer]',
     industry: 'Retail & e-commerce',
     year: '[2026]',

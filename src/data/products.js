@@ -99,8 +99,8 @@ const categories = [
   },
   {
     id: 'ai',
-    label: 'AI & automation',
-    summary: 'Agents and chatbots on OpenAI, Claude and Gemini, plus n8n, Zapier and Make workflows.',
+    label: 'AI',
+    summary: 'Agents, chatbots and assistants on OpenAI, Claude and Gemini, answering from your own documents and calls.',
     items: [
       {
         title: 'AI agents',
@@ -109,38 +109,85 @@ const categories = [
       },
       {
         title: 'Search over your own documents',
-        alt: 'Futuristic AI artwork',
+        alt: 'Robot working through information on a tablet',
         desc: 'An assistant that answers from your manuals, policies and past tickets instead of making things up. We set up the document pipeline and vector database (Pinecone, Chroma), then test it against questions your team actually asks. Every answer shows where it came from.',
       },
       {
         title: 'Support chatbots',
-        alt: 'White robot',
+        alt: 'White robot assistant',
         desc: "Bots trained on your help docs that can look up an order or reset a password, not just chat. When they can't help, they pass the customer to a person with the whole conversation attached. You get a weekly list of the questions it couldn't answer.",
       },
       {
         title: 'Phone assistants',
-        alt: 'Robot assistant',
+        alt: 'Robot hand reaching toward a person',
         desc: 'Voice bots on Twilio that answer calls, book appointments, handle pricing questions and pass urgent calls to a person. Every call is transcribed and summarized into your CRM. Useful for clinics and service businesses that miss calls after hours.',
       },
       {
+        title: 'Writing assistants',
+        alt: 'Two people writing at laptops in an office',
+        desc: "Drafts for emails, proposals, product descriptions and support replies, written from examples you approve. A person still signs off before anything reaches a customer. You can see which draft the model wrote and edit it in the same place.",
+      },
+      {
+        title: 'Reading invoices and forms',
+        alt: 'Paper forms and a calculator on a desk',
+        desc: 'Invoices, contracts, IDs and intake forms turned into clean rows in a spreadsheet or your database. Fields the model is unsure about get flagged for a person, and the original file stays attached so you can check it.',
+      },
+      {
+        title: 'Meeting and call summaries',
+        alt: 'Close-up of a computer chip',
+        desc: 'A recording or a transcript becomes notes, decisions and next steps, then lands on the right ticket or CRM record. Useful after sales calls and clinic visits. You choose how long the recording is kept.',
+      },
+      {
+        title: 'Private assistants for your team',
+        alt: 'Illuminated circuit board',
+        desc: "A private assistant your staff can ask about prices, policies and how a job is done. It only answers from the material you give us, and it says when it does not know. Access follows the logins your team already uses.",
+      },
+    ],
+  },
+  {
+    id: 'automation',
+    label: 'Automation',
+    summary: 'n8n, Zapier and Make workflows that move leads, invoices, reports and alerts between the tools you already use.',
+    items: [
+      {
         title: 'n8n, Zapier & Make workflows',
-        alt: 'Humanoid robot',
+        alt: 'Work on a computer screen',
         desc: 'Automations for the copy-paste work between your tools. A new lead gets scored, added to the CRM and posted to Slack. A paid invoice updates the books and sends a thank-you. We map your process first, automate the slow parts, and add alerts for when something fails.',
       },
       {
         title: 'CRM setup & automation',
-        alt: 'Small robot figure',
+        alt: 'Phone with email, calendar and messaging apps beside a laptop',
         desc: 'HubSpot, GoHighLevel, Zoho and Monday. Leads from every channel into one pipeline, follow-ups that stop when someone replies, reminders that cut no-shows. We clean up duplicates and dead fields first so the reports are worth reading.',
       },
       {
         title: 'IoT & hardware integration',
-        alt: 'Circuit board close-up',
+        alt: 'Printed circuit board',
         desc: 'Connecting scanners, sensors, printers and network gear to the software you use. Typical jobs: warehouse barcode workflows, equipment monitoring, Meraki and UniFi automation, and VoIP phone systems linked to a CRM. If a device goes quiet, you get an alert.',
       },
       {
         title: 'Monitoring & alerts',
-        alt: 'Cybersecurity lock on screen',
+        alt: 'Operations dashboard with charts on a laptop',
         desc: "Uptime checks, error tracking, SSL and domain expiry warnings, failed backup alerts and suspicious login notices for your sites and servers. Alerts go to Slack or email in plain English, and we tune them so they don't turn into noise.",
+      },
+      {
+        title: 'Lead follow-up',
+        alt: 'People working through messages at their desks',
+        desc: 'A new enquiry is logged, scored and followed up without someone copying it between the website, the inbox and the CRM. A reply stops the sequence. You get a note when a lead goes quiet or when a message fails to send.',
+      },
+      {
+        title: 'Invoices and bookkeeping',
+        alt: 'Tax forms, a calculator and paperwork on a desk',
+        desc: 'A paid invoice updates the books, sends a receipt and tells the person who needs to know. We connect QuickBooks, Xero or the spreadsheet you already keep, and we add a check so a payment is never recorded twice.',
+      },
+      {
+        title: 'Reports that build themselves',
+        alt: 'A line chart on a laptop screen',
+        desc: 'The Monday numbers, the weekly pipeline or the stock count, assembled from the tools you already use and sent where your team reads them. We start from the report you look at today, then remove the manual export.',
+      },
+      {
+        title: 'Approvals and handoffs',
+        alt: 'A workflow mapped on a board with connected steps',
+        desc: 'A request moves from the person who filed it to the person who approves it, with a reminder if it sits too long. When it is approved, the next step starts on its own: an order, a ticket or a message to the customer.',
       },
     ],
   },

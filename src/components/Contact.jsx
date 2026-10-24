@@ -3,7 +3,7 @@ import { useState } from 'react'
 const CONTACT_EMAIL = 'support@askatomsolutions.com'
 
 const SERVICES = [
-  'Website or web app', 'Mobile app', 'AI or automation', 'Trading tools',
+  'Website or web app', 'Mobile app', 'AI', 'Automation', 'Trading tools',
   'Excel or data', 'Video editing', 'Online store', 'SaaS product', 'Something else',
 ]
 const BUDGETS = ['Under $500', '$500 – $2,000', '$2,000 – $10,000', '$10,000+', 'Not sure yet']

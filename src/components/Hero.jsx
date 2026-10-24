@@ -34,7 +34,7 @@ export default function Hero() {
           </ul>
         </div>
         <figure className="hero-img">
-          <img src="images/site/hero-workspace.jpg" alt="Laptop, desktop, tablet, and phone showing business software on a desk" />
+          <img src="images/site/hero-mascot.png" alt="AskAtom mascot with a laptop, surrounded by app, cloud, and automation icons" />
         </figure>
       </div>
 

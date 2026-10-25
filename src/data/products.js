@@ -10,7 +10,7 @@ const categories = [
     items: [
       {
         title: 'Custom web applications',
-        alt: 'Code on a developer screen',
+        alt: 'A robot building a web app connected to a calendar, invoices, and orders',
         desc: "For when the spreadsheet or off-the-shelf tool you've been bending stops fitting. We build around how your team already works, whether that's quoting, scheduling or inventory. Usually React or Vue on the front, Node or Laravel behind it, Postgres for the data. You review each milestone on a staging link, and the code is yours at the end.",
       },
       {

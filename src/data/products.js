@@ -15,7 +15,7 @@ const categories = [
       },
       {
         title: 'Company websites',
-        alt: 'Laptop with code editor open',
+        alt: 'A company website on a desktop monitor, with SEO, analytics, and content editing',
         desc: "Fast, clean sites for companies that want to look as solid online as they are in person. Proper SEO basics, analytics, and an editor your team can use without calling us. We'll help you sort out the content too, since that's usually the hard part.",
       },
       {

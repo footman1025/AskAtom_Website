@@ -91,7 +91,7 @@ const categories = [
     items: [
       {
         title: 'n8n, Zapier & Make workflows',
-        alt: 'Work on a computer screen',
+        alt: 'A workflow connecting a website, email, calendar, and payments to a CRM, Slack, the books, and an alert',
         desc: 'Automations for the copy-paste work between your tools. A new lead gets scored, added to the CRM and posted to Slack. A paid invoice updates the books and sends a thank-you. We map your process first, automate the slow parts, and add alerts for when something fails.',
       },
       {

@@ -52,7 +52,7 @@ const categories = [
       },
       {
         title: 'On-demand & delivery apps',
-        alt: 'Modern smartphone screen',
+        alt: 'A delivery marketplace with a customer phone, a driver phone, and an operations dashboard',
         desc: 'A customer app, a provider app and an operations dashboard, all talking to each other. GPS tracking, pricing rules, Stripe payouts, ratings and notifications. Works for home services, delivery or rentals.',
       },
     ],

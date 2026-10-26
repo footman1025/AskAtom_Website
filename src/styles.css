@@ -91,10 +91,10 @@ section{padding-block:88px}
 .tab:hover{color:var(--ink)}
 .tab[aria-selected="true"]{color:var(--ink);font-weight:600;border-bottom-color:var(--ink)}
 .tab-summary{color:var(--muted);margin-bottom:28px}
-.panel{display:grid;grid-template-columns:repeat(4,1fr);gap:32px 24px}
+.panel{display:grid;grid-template-columns:repeat(2,1fr);gap:40px 32px}
 .card{display:flex;flex-direction:column;gap:12px;padding:0;background:none;border:0;cursor:pointer;text-align:left;font:inherit;color:inherit}
 .card img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:3px;background:var(--alt)}
-.card-title{font-weight:600;font-size:.98rem;line-height:1.35}
+.card-title{font-weight:600;font-size:1.2rem;line-height:1.35}
 .card:hover .card-title,.card:focus-visible .card-title{text-decoration:underline;text-underline-offset:3px}
 .card:hover img{opacity:.9}
 

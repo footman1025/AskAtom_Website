@@ -1,5 +1,5 @@
 // Work categories shown in the "What we build" section.
-// Each category has a one-line summary and 8 example project types.
+// Each category has a one-line summary and 4 example project types.
 // Photos are in public/images/<id>-<n>.jpg
 
 const categories = [
@@ -28,26 +28,6 @@ const categories = [
         alt: 'A landing page on a laptop and phone, connected to ads, video, and analytics',
         desc: 'Pages for ad campaigns, launches and webinars. They load quickly, say what you do in the first line, and send leads straight into your CRM or email tool. Tracking is set up before launch so you can see what is working.',
       },
-      {
-        title: 'APIs & integrations',
-        alt: 'Developer workstation with code',
-        desc: "A lot of business software problems are really two tools that don't talk to each other. We build REST and GraphQL APIs and connect third-party ones like Stripe, Twilio, QuickBooks and shipping carriers. Retries, rate limits and logging are handled so things keep running overnight, and we write the docs.",
-      },
-      {
-        title: 'Node & Laravel backends',
-        alt: 'Programming in a dark editor',
-        desc: 'Server-side work in Node, TypeScript and Laravel: new APIs, speeding up slow ones, or moving off an old codebase. We pay attention to the boring parts like auth, validation, queues and backups. You get deployment scripts and notes on how it all fits together.',
-      },
-      {
-        title: 'Booking systems & client portals',
-        alt: 'Code on a monitor',
-        desc: 'Appointment booking, client portals, member areas and vendor dashboards. Your customers can book, pay and check their status on their own, and you manage everything from an admin panel. Email and SMS reminders included.',
-      },
-      {
-        title: 'Fixes & rescues',
-        alt: 'Developer desk with multiple screens',
-        desc: "Slow site, broken plugin, or a project another developer left half done. We start by going through the code, hosting and database, then send you a plain write-up of what's wrong and what it costs to fix before any work starts.",
-      },
     ],
   },
   {
@@ -74,26 +54,6 @@ const categories = [
         title: 'On-demand & delivery apps',
         alt: 'Modern smartphone screen',
         desc: 'A customer app, a provider app and an operations dashboard, all talking to each other. GPS tracking, pricing rules, Stripe payouts, ratings and notifications. Works for home services, delivery or rentals.',
-      },
-      {
-        title: 'Fintech & wallet apps',
-        alt: 'Black smartphone',
-        desc: 'Wallets, budgeting tools, invoicing and payment features. Encrypted storage, biometric login, and Stripe or Plaid integrations written so a dropped connection never charges anyone twice. We also handle exports, disputes and the edge cases that come with real money.',
-      },
-      {
-        title: 'Apps for Shopify & WooCommerce stores',
-        alt: 'iPhone on a wooden desk',
-        desc: 'A mobile app that syncs with the store you already run, so products and orders stay in one place. It adds push notifications for restocks, quick reorder and loyalty points. Nothing about your current store has to change.',
-      },
-      {
-        title: 'Chat & social features',
-        alt: 'Phone with blue interface',
-        desc: 'Messaging, feeds, comments and online status inside your app. Built to hold up on patchy mobile connections, with notifications that open the right conversation and basic moderation tools.',
-      },
-      {
-        title: 'Launch & ongoing updates',
-        alt: 'Smartphone on a table',
-        desc: 'Certificates, store listings, privacy forms, screenshots and the occasional rejection from Apple. We handle the launch, set up automated builds, and keep the app working as each new iOS and Android version comes out.',
       },
     ],
   },
@@ -122,26 +82,6 @@ const categories = [
         alt: 'Robot hand reaching toward a person',
         desc: 'Voice bots on Twilio that answer calls, book appointments, handle pricing questions and pass urgent calls to a person. Every call is transcribed and summarized into your CRM. Useful for clinics and service businesses that miss calls after hours.',
       },
-      {
-        title: 'Writing assistants',
-        alt: 'Two people writing at laptops in an office',
-        desc: "Drafts for emails, proposals, product descriptions and support replies, written from examples you approve. A person still signs off before anything reaches a customer. You can see which draft the model wrote and edit it in the same place.",
-      },
-      {
-        title: 'Reading invoices and forms',
-        alt: 'Paper forms and a calculator on a desk',
-        desc: 'Invoices, contracts, IDs and intake forms turned into clean rows in a spreadsheet or your database. Fields the model is unsure about get flagged for a person, and the original file stays attached so you can check it.',
-      },
-      {
-        title: 'Meeting and call summaries',
-        alt: 'Close-up of a computer chip',
-        desc: 'A recording or a transcript becomes notes, decisions and next steps, then lands on the right ticket or CRM record. Useful after sales calls and clinic visits. You choose how long the recording is kept.',
-      },
-      {
-        title: 'Private assistants for your team',
-        alt: 'Illuminated circuit board',
-        desc: "A private assistant your staff can ask about prices, policies and how a job is done. It only answers from the material you give us, and it says when it does not know. Access follows the logins your team already uses.",
-      },
     ],
   },
   {
@@ -168,26 +108,6 @@ const categories = [
         title: 'Monitoring & alerts',
         alt: 'Operations dashboard with charts on a laptop',
         desc: "Uptime checks, error tracking, SSL and domain expiry warnings, failed backup alerts and suspicious login notices for your sites and servers. Alerts go to Slack or email in plain English, and we tune them so they don't turn into noise.",
-      },
-      {
-        title: 'Lead follow-up',
-        alt: 'People working through messages at their desks',
-        desc: 'A new enquiry is logged, scored and followed up without someone copying it between the website, the inbox and the CRM. A reply stops the sequence. You get a note when a lead goes quiet or when a message fails to send.',
-      },
-      {
-        title: 'Invoices and bookkeeping',
-        alt: 'Tax forms, a calculator and paperwork on a desk',
-        desc: 'A paid invoice updates the books, sends a receipt and tells the person who needs to know. We connect QuickBooks, Xero or the spreadsheet you already keep, and we add a check so a payment is never recorded twice.',
-      },
-      {
-        title: 'Reports that build themselves',
-        alt: 'A line chart on a laptop screen',
-        desc: 'The Monday numbers, the weekly pipeline or the stock count, assembled from the tools you already use and sent where your team reads them. We start from the report you look at today, then remove the manual export.',
-      },
-      {
-        title: 'Approvals and handoffs',
-        alt: 'A workflow mapped on a board with connected steps',
-        desc: 'A request moves from the person who filed it to the person who approves it, with a reminder if it sits too long. When it is approved, the next step starts on its own: an order, a ticket or a message to the customer.',
       },
     ],
   },
@@ -216,26 +136,6 @@ const categories = [
         alt: 'Financial charts and laptop',
         desc: 'Python tools that run your strategy over years of historical data with realistic costs, and report drawdown, win rate and profit factor. Walk-forward and out-of-sample tests help catch curve-fitting. Change a setting, rerun, compare.',
       },
-      {
-        title: 'Portfolio & risk dashboards',
-        alt: 'Finance documents and analysis',
-        desc: 'One screen for positions across all your brokers and exchanges: exposure, open P&L, margin, and an alert when you cross a limit you set. It keeps history, so you can look back at how a bad week played out.',
-      },
-      {
-        title: 'Market data pipelines',
-        alt: 'Market charts on a desk',
-        desc: 'Collecting and cleaning price history, order books, news and on-chain data, including the gaps, duplicate ticks and symbol changes. Stored for fast queries, kept up to date, with an alert if a feed stops.',
-      },
-      {
-        title: 'Mobile trading alerts',
-        alt: 'Trading app on a phone',
-        desc: "Phone alerts for price levels, signals and position changes, plus quick actions to close or adjust trades through your broker's API. Every action asks for confirmation, so a pocket tap never places a trade.",
-      },
-      {
-        title: 'Broker & exchange APIs',
-        alt: 'Candlestick chart',
-        desc: 'Integrations with Interactive Brokers, Alpaca, Binance, Bybit, OANDA and others. Order placement, balance sync, price streams that reconnect on their own, and one data format across venues. Tested in a sandbox before live keys go in.',
-      },
     ],
   },
   {
@@ -262,26 +162,6 @@ const categories = [
         title: 'Bookkeeping automation',
         alt: 'Calculator and spreadsheets',
         desc: "Bank and card transactions imported and categorized by rules you approve, invoices matched to payments, receipts scanned and filed, all exported to QuickBooks or Xero. Anything the rules can't place waits for a person to decide.",
-      },
-      {
-        title: 'Power BI & Tableau',
-        alt: 'Data on a screen',
-        desc: 'Most frustrating Power BI reports have a messy data model underneath. We set up the connections, model and measures properly, then design the pages. Row-level security, scheduled refresh, and a short training session for your team.',
-      },
-      {
-        title: 'Data cleanup',
-        alt: 'Printed charts and documents',
-        desc: 'That 80,000-row file with three date formats and duplicate customers. We clean it with Python and SQL, flag what needs a human look, and leave you a repeatable pipeline so it stays clean.',
-      },
-      {
-        title: 'Inventory & job trackers',
-        alt: 'Data analysis workspace',
-        desc: 'Inventory with reorder alerts and barcode scanning, job boards from intake to delivery, maintenance schedules, staff rotas. Built in Excel, or as a small web app if several people need it at once. Simple enough that people actually use it.',
-      },
-      {
-        title: 'Forecasting',
-        alt: 'Analytics planning sketch',
-        desc: 'Demand forecasts with seasonality, cash-flow projections that allow for late payers, churn and cohort analysis, and what-if scenarios you can adjust. We pick a method your data can support and always show a range, not one overconfident number.',
       },
     ],
   },
@@ -310,26 +190,6 @@ const categories = [
         alt: 'Studio microphone',
         desc: 'Noise removal, leveling, filler-word cleanup that still sounds natural, and loudness set to platform standards. For video podcasts we sync the cameras and cut between speakers. Each episode comes with show notes, timestamps and a few short clips.',
       },
-      {
-        title: 'Event & multi-camera edits',
-        alt: 'Camera in a studio',
-        desc: 'Conferences, weddings, launches and live shows. We sync every camera and audio source, cut between angles, and deliver a highlight reel, full session recordings and clips for social, with lower thirds and sponsor graphics.',
-      },
-      {
-        title: 'Motion graphics',
-        alt: 'Creative retro tech setup',
-        desc: 'Logo animations, animated charts, UI walkthroughs and explainer videos from script to render, in your colors and fonts. Project files are included, so changing a price later is a quick edit.',
-      },
-      {
-        title: 'Training & internal videos',
-        alt: 'Film production gear',
-        desc: 'Onboarding, safety, software tutorials and internal updates. Clear chapters, on-screen text for the key points, and zooms on the details people need to see. Consistent branding across the set, and easy to update.',
-      },
-      {
-        title: 'Shorts, Reels & TikTok',
-        alt: 'Video editing workspace',
-        desc: 'We find the best 20 to 50 seconds in your podcasts and webinars and cut them into vertical clips, reframed to 9:16 with captions, since most people watch on mute. Delivered in weekly batches.',
-      },
     ],
   },
   {
@@ -357,26 +217,6 @@ const categories = [
         alt: 'Miniature shopping cart with boxes',
         desc: "Custom Shopify themes in Liquid, with sections your team can rearrange on their own. We're picky about apps, since many are just another monthly fee. Moving over from WooCommerce, Wix or Squarespace includes a full redirect map so you keep your search rankings.",
       },
-      {
-        title: 'Order & fulfillment automation',
-        alt: 'Online shopping packages',
-        desc: 'Orders routed to the right warehouse or supplier, shipping labels generated with rates compared, tracking sent to customers, and stock updated across every channel. Low-stock alerts before a bestseller runs out. Returns too.',
-      },
-      {
-        title: 'Store migrations',
-        alt: 'Open sign at a storefront',
-        desc: 'Moving between Shopify, WooCommerce, Magento and others without losing orders, customers or SEO. Everything is moved and checked, payments and shipping are tested on staging, and launch day is a short planned cutover with a way back.',
-      },
-      {
-        title: 'Retail catalogs',
-        alt: 'Clothing retail display',
-        desc: 'Clean size and color variants, size guides, collections that fill themselves by rules, and filters that match how people actually shop. Bulk updates from a spreadsheet so hundreds of SKUs stay manageable.',
-      },
-      {
-        title: 'Product page improvements',
-        alt: 'Product photo of a watch',
-        desc: "Better galleries with zoom and video, clearer copy, reviews with photos, plain stock and delivery info, and cross-sells that make sense. We work on page speed and A/B test changes when there's enough traffic to tell.",
-      },
     ],
   },
   {
@@ -403,26 +243,6 @@ const categories = [
         title: 'Client portals & admin panels',
         alt: 'Team meeting with laptops',
         desc: 'A place where customers see their projects, invoices, files and support threads, and an admin panel where your staff manage users, billing and permissions. In your branding, connected to Stripe, QuickBooks or your CRM.',
-      },
-      {
-        title: 'Multi-tenant platforms',
-        alt: 'Modern office teamwork',
-        desc: 'Tenant separation is cheap to get right early and painful to add later. We build it into the database, configuration, billing and background jobs from day one, with room for SSO and custom domains when bigger customers ask.',
-      },
-      {
-        title: 'Stripe subscriptions',
-        alt: 'Engineer reviewing code on screen',
-        desc: "Plans, metered usage, trials, coupons, upgrades with correct proration, Stripe Tax, and retry emails for failed cards. Webhooks are handled so your database and Stripe don't drift apart. Customers get a self-service billing page.",
-      },
-      {
-        title: 'Login, roles & security',
-        alt: 'Startup team planning',
-        desc: 'Secure sessions, Google and Microsoft sign-in, SAML for enterprise, two-factor auth and role-based permissions. We take extra care with password reset and invites, which is where users get stuck and attackers get in. Security events are logged.',
-      },
-      {
-        title: 'AWS, Azure & CI/CD',
-        alt: 'Product planning session',
-        desc: "Docker, managed databases with backups, a CDN, a staging environment that matches production, and pipelines that test and deploy every change. Monitoring and searchable logs included. Written as code, so it isn't stuck in one person's head.",
       },
     ],
   },

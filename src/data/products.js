@@ -42,7 +42,7 @@ const categories = [
       },
       {
         title: 'React Native & Flutter',
-        alt: 'Phone held in hand',
+        alt: 'React Native and Flutter apps for delivery, fitness, and field teams on two phones',
         desc: "Cross-platform apps that still feel right on each phone. We've shipped them for delivery services, fitness brands and field teams, so we know the tricky bits: offline sync, deep links, background tasks and native modules. If a feature would be better built natively, we'll say so.",
       },
       {

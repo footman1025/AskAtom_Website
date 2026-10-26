@@ -47,7 +47,7 @@ const categories = [
       },
       {
         title: 'App design',
-        alt: 'Mobile app wireframes and design',
+        alt: 'An app design moving from wireframes to a finished travel screen and a phone prototype',
         desc: "Wireframes first, because they're cheap to change. Then full screens and a clickable prototype you can show real users before any code is written. We focus on onboarding and keeping the main task within easy reach of a thumb.",
       },
       {

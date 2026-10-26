@@ -69,7 +69,7 @@ const categories = [
       },
       {
         title: 'Search over your own documents',
-        alt: 'Robot working through information on a tablet',
+        alt: 'Documents flowing into a search assistant that answers with the source pages',
         desc: 'An assistant that answers from your manuals, policies and past tickets instead of making things up. We set up the document pipeline and vector database (Pinecone, Chroma), then test it against questions your team actually asks. Every answer shows where it came from.',
       },
       {

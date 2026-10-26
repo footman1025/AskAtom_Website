@@ -25,7 +25,7 @@ const categories = [
       },
       {
         title: 'Landing pages',
-        alt: 'HTML source code',
+        alt: 'A landing page on a laptop and phone, connected to ads, video, and analytics',
         desc: 'Pages for ad campaigns, launches and webinars. They load quickly, say what you do in the first line, and send leads straight into your CRM or email tool. Tracking is set up before launch so you can see what is working.',
       },
       {

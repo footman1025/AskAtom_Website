@@ -20,7 +20,7 @@ const categories = [
       },
       {
         title: 'React & Next.js frontends',
-        alt: 'JavaScript code close-up',
+        alt: 'A workflow from Figma and WordPress into a React and Next.js site on a laptop and phone',
         desc: 'New frontends built from your Figma files, or old jQuery and WordPress themes moved over to React and Next.js. We write it in TypeScript and keep the components simple enough that the next developer can pick it up. Your existing URLs, SEO and analytics carry over.',
       },
       {

@@ -64,7 +64,7 @@ const categories = [
     items: [
       {
         title: 'AI agents',
-        alt: 'Abstract AI visual',
+        alt: 'An AI agent on a laptop connected to email, leads, documents, tickets, and a CRM',
         desc: "Agents that handle real tasks: drafting email replies, qualifying leads, summarizing documents, sorting support tickets, updating your CRM. Built on OpenAI, Claude or Gemini, with a human sign-off step where it matters and a log of everything it does. Sometimes a simple script is the better buy, and we'll tell you when.",
       },
       {

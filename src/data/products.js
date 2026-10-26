@@ -37,7 +37,7 @@ const categories = [
     items: [
       {
         title: 'iOS & Android apps',
-        alt: 'Smartphone on a desk',
+        alt: 'Two phone apps for tasks and travel bookings, shown with Apple and Android',
         desc: 'From idea to the App Store and Google Play. We usually build with React Native or Flutter so one codebase covers both phones, and go native with Swift or Kotlin when the app really needs it. Crash reporting, analytics and push notifications are set up from the start.',
       },
       {

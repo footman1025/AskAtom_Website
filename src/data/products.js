@@ -79,7 +79,7 @@ const categories = [
       },
       {
         title: 'Phone assistants',
-        alt: 'Robot hand reaching toward a person',
+        alt: 'A phone assistant booking an appointment, answering a price question, and saving the call transcript',
         desc: 'Voice bots on Twilio that answer calls, book appointments, handle pricing questions and pass urgent calls to a person. Every call is transcribed and summarized into your CRM. Useful for clinics and service businesses that miss calls after hours.',
       },
     ],

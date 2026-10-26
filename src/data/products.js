@@ -74,7 +74,7 @@ const categories = [
       },
       {
         title: 'Support chatbots',
-        alt: 'White robot assistant',
+        alt: 'A support chatbot looking up an order, resetting a password, and handing off to a person',
         desc: "Bots trained on your help docs that can look up an order or reset a password, not just chat. When they can't help, they pass the customer to a person with the whole conversation attached. You get a weekly list of the questions it couldn't answer.",
       },
       {

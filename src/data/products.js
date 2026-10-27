@@ -96,7 +96,7 @@ const categories = [
       },
       {
         title: 'CRM setup & automation',
-        alt: 'Phone with email, calendar and messaging apps beside a laptop',
+        alt: 'Leads from email, phone, and chat flowing into a CRM pipeline with reminders and a report',
         desc: 'HubSpot, GoHighLevel, Zoho and Monday. Leads from every channel into one pipeline, follow-ups that stop when someone replies, reminders that cut no-shows. We clean up duplicates and dead fields first so the reports are worth reading.',
       },
       {

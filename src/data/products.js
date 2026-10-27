@@ -101,7 +101,7 @@ const categories = [
       },
       {
         title: 'IoT & hardware integration',
-        alt: 'Printed circuit board',
+        alt: 'Scanners, sensors, printers, and phones connected through the cloud to a dashboard and an alert',
         desc: 'Connecting scanners, sensors, printers and network gear to the software you use. Typical jobs: warehouse barcode workflows, equipment monitoring, Meraki and UniFi automation, and VoIP phone systems linked to a CRM. If a device goes quiet, you get an alert.',
       },
       {

@@ -118,7 +118,7 @@ const categories = [
     items: [
       {
         title: 'MT4/MT5 expert advisors',
-        alt: 'Multi-monitor trading setup',
+        alt: 'A trader watching MT4 and MT5 expert advisors, with backtest results and risk settings',
         desc: "We turn your written trading rules into MQL4 or MQL5 EAs: entries, exits, position sizing and risk limits like max drawdown and daily loss. Each one comes with multi-year backtests and trade logs. We'll be straight with you about what a backtest does and doesn't prove.",
       },
       {

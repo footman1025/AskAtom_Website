@@ -106,7 +106,7 @@ const categories = [
       },
       {
         title: 'Monitoring & alerts',
-        alt: 'Operations dashboard with charts on a laptop',
+        alt: 'A monitoring dashboard for a website, servers, errors, and backups, with alerts sent to chat and email',
         desc: "Uptime checks, error tracking, SSL and domain expiry warnings, failed backup alerts and suspicious login notices for your sites and servers. Alerts go to Slack or email in plain English, and we tune them so they don't turn into noise.",
       },
     ],

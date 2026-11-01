@@ -187,7 +187,7 @@ const categories = [
       },
       {
         title: 'Podcast editing',
-        alt: 'Studio microphone',
+        alt: 'A podcast edit with noise removal, loudness leveling, synced cameras, show notes, and short clips',
         desc: 'Noise removal, leveling, filler-word cleanup that still sounds natural, and loudness set to platform standards. For video podcasts we sync the cameras and cut between speakers. Each episode comes with show notes, timestamps and a few short clips.',
       },
     ],

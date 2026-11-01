@@ -133,7 +133,7 @@ const categories = [
       },
       {
         title: 'Backtesting tools',
-        alt: 'Financial charts and laptop',
+        alt: 'A Python backtesting tool showing a return chart, walk-forward and out-of-sample tests, and a comparison of settings',
         desc: 'Python tools that run your strategy over years of historical data with realistic costs, and report drawdown, win rate and profit factor. Walk-forward and out-of-sample tests help catch curve-fitting. Change a setting, rerun, compare.',
       },
     ],

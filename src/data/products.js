@@ -172,7 +172,7 @@ const categories = [
     items: [
       {
         title: 'Color & post-production',
-        alt: 'Color grading timeline on screen',
+        alt: 'A color grading studio with color wheels, scopes, a timeline, and a control panel',
         desc: 'Color correction and grading, audio cleanup, stabilization, and matching footage from different cameras so it cuts together. Exported in every format and aspect ratio you need, with files named so nothing gets uploaded wrong.',
       },
       {

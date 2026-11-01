@@ -214,7 +214,7 @@ const categories = [
       },
       {
         title: 'Shopify stores',
-        alt: 'Miniature shopping cart with boxes',
+        alt: 'A Shopify store migrated from WooCommerce, Wix, and Squarespace, with a custom theme, flexible sections, and a redirect map',
         desc: "Custom Shopify themes in Liquid, with sections your team can rearrange on their own. We're picky about apps, since many are just another monthly fee. Moving over from WooCommerce, Wix or Squarespace includes a full redirect map so you keep your search rankings.",
       },
     ],

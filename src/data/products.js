@@ -182,7 +182,7 @@ const categories = [
       },
       {
         title: 'Ads & promos',
-        alt: 'Cinema camera rig',
+        alt: 'A product promo with one message and a clear call to action, exported in 16:9, 1:1, and 9:16, with shorter cutdowns and licensed music',
         desc: 'Short ads built around one message and a clear call to action. Delivered in 16:9, 1:1 and 9:16, with 30, 15 and 6-second cutdowns, each reframed properly instead of cropped. Licensed music only.',
       },
       {

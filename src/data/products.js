@@ -123,7 +123,7 @@ const categories = [
       },
       {
         title: 'TradingView Pine Script',
-        alt: 'Stock chart on screen',
+        alt: 'A TradingView screener and Pine Script chart with buy and sell signals, a backtest, and alerts to a phone, Telegram, and Discord',
         desc: 'Custom indicators, screeners and strategies for TradingView, with alerts to your phone or a webhook. Strategy backtests include commissions and slippage so the results mean something. You get the source code.',
       },
       {

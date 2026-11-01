@@ -145,7 +145,7 @@ const categories = [
     items: [
       {
         title: 'Dashboards',
-        alt: 'Analytics dashboard on laptop',
+        alt: 'Spreadsheets and a database refreshing a dashboard in Excel, Power BI, Tableau, and Looker',
         desc: 'Pulling numbers out of scattered spreadsheets and app exports into one dashboard that updates itself. Excel, Power BI, Tableau or Looker, whichever your team already uses. Nobody has to copy-paste on Monday morning anymore.',
       },
       {

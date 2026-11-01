@@ -128,7 +128,7 @@ const categories = [
       },
       {
         title: 'Crypto bots',
-        alt: 'Crypto price chart',
+        alt: 'A crypto bot dashboard connected to three exchanges, with grid, DCA, rebalancing, and signal bots, plus a kill switch',
         desc: "Grid, DCA, rebalancing and signal bots for Binance, Coinbase, Kraken and others. Orders are safe to retry, API keys never get withdrawal rights, and you can run in paper mode before going live. There's a kill switch and a full log.",
       },
       {

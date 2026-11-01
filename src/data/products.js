@@ -177,7 +177,7 @@ const categories = [
       },
       {
         title: 'YouTube & social editing',
-        alt: 'Vlogging camera setup',
+        alt: 'A YouTube edit connected to Instagram, TikTok, Facebook, and Shorts, with captions, thumbnails, chapters, and one revision',
         desc: 'Edits paced to keep people watching: a quick hook, dead air removed, synced captions, and B-roll where attention drops. Send raw footage and a brief, and you get back the video, thumbnail frames and chapter timestamps. One revision round included.',
       },
       {

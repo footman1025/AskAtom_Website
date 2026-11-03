@@ -103,6 +103,7 @@ export const stack = [
   { group: 'Cloud', items: ['AWS', 'Azure', 'Docker', 'CI/CD'] },
   { group: 'Video & motion', items: ['Adobe Premiere Pro', 'Adobe After Effects', 'DaVinci Resolve', 'Final Cut Pro', 'Adobe Audition', 'CapCut'] },
   { group: 'Design', items: ['Figma', 'Adobe Illustrator', 'Adobe Photoshop', 'Canva'] },
+  { group: 'Marketing', items: ['Google Search Console', 'Mailchimp', 'Klaviyo', 'Google Ads', 'Meta Ads'] },
 ]
 
 // These answers are also in the FAQ structured data in index.html.

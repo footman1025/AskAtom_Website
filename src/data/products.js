@@ -246,6 +246,33 @@ const categories = [
       },
     ],
   },
+  {
+    id: 'marketing',
+    label: 'Marketing',
+    summary: 'SEO, email, paid ads and social content, set up so you can see what is working.',
+    items: [
+      {
+        title: 'SEO & content',
+        alt: 'A search result leading to a company site, with titles, page speed, and a sitemap',
+        desc: 'Pages, titles and site structure written so people and search engines can find you. We fix the technical side, including speed, redirects and sitemaps, and write the pages in plain language. You can see which pages bring visits and which ones need another pass.',
+      },
+      {
+        title: 'Email campaigns',
+        alt: 'An email sequence for a welcome, a follow-up, and a newsletter, with opens and clicks',
+        desc: 'Newsletters and short automated sequences in the tool you already use, such as Mailchimp, Klaviyo or HubSpot. A welcome series, a follow-up after a quote, and a regular update. Each send includes a simple read on opens, clicks and unsubscribes.',
+      },
+      {
+        title: 'Paid ads',
+        alt: 'Search and social ad campaigns with spend, clicks, and conversions on one screen',
+        desc: 'Search and social campaigns with tracking that matches the site, so a click and a sale are the same person. We set up the audiences, the ads and the conversion events, then report what spent money and what did not.',
+      },
+      {
+        title: 'Social media',
+        alt: 'A social calendar with posts for Instagram, LinkedIn, Facebook, and X, plus a small brand kit',
+        desc: 'A posting rhythm and a small set of templates so the feed stays consistent without starting from a blank page each week. Captions, images and short clips sized for the networks you actually use, with a calendar your team can edit.',
+      },
+    ],
+  },
 ]
 
 // image paths follow the <category>-<n>.jpg naming in public/images

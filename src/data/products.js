@@ -209,7 +209,7 @@ const categories = [
       },
       {
         title: 'WooCommerce stores',
-        alt: 'Contactless payment',
+        alt: 'A WooCommerce store with product pages and a checkout, next to speed, settings, and an audit checklist',
         desc: 'New WooCommerce builds and cleanups of existing ones. Lighter themes, fewer plugins, faster product pages and a smoother checkout. For an existing store we start with an audit and a prioritized list of fixes.',
       },
       {

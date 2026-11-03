@@ -204,7 +204,7 @@ const categories = [
       },
       {
         title: 'Checkout improvements',
-        alt: 'Online checkout with credit card',
+        alt: 'A short checkout with Apple Pay, Google Pay, and PayPal, address autocomplete, live tax and shipping, and a safe retry after a failed payment',
         desc: 'Shorter Stripe and PayPal checkouts: Apple Pay and Google Pay up front, address autocomplete, live tax and shipping, guest checkout. Retries never double-charge, and customers with a failed payment get an easy way back.',
       },
       {

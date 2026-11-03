@@ -199,7 +199,7 @@ const categories = [
     items: [
       {
         title: 'Payment gateways',
-        alt: 'Card payment at a terminal',
+        alt: 'A WooCommerce store with a checklist for setup, cleanup, faster pages, a smoother checkout, and an audit',
         desc: "Setting up and fixing Stripe, PayPal, Square and Authorize.net on WooCommerce, Shopify and custom sites. 3-D Secure, webhooks, refunds, subscriptions and failed-payment emails. We test the failure cases first, since that's where money goes missing.",
       },
       {

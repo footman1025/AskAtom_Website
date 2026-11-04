@@ -23,19 +23,22 @@ export default function Hero() {
             <a className="btn btn-primary" href="#contact">Tell us about your project</a>
             <a className="textlink" href="#cases">See our work →</a>
           </div>
-          <ul className="seals" aria-label="Freelancer.com credentials">
-            {badges.map((b) => (
-              <li key={b.label}>
-                <img src={b.img} alt="" width="56" height="56" />
-                {b.label}
-              </li>
-            ))}
-            <li className="seals-src">on Freelancer.com</li>
-          </ul>
         </div>
         <figure className="hero-img">
           <img src="images/site/hero-mascot.png" alt="AskAtom mascot with a laptop, surrounded by app, cloud, and automation icons" />
         </figure>
+      </div>
+
+      <div className="wrap seals-row">
+        <ul className="seals" aria-label="Freelancer.com credentials">
+          {badges.map((b) => (
+            <li key={b.label}>
+              <img src={b.img} alt="" width="56" height="56" />
+              {b.label}
+            </li>
+          ))}
+        </ul>
+        <p className="seals-src">on Freelancer.com</p>
       </div>
 
       <div className="stats-band">

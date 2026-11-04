@@ -56,17 +56,18 @@ header{position:sticky;top:0;z-index:50;background:var(--bg);border-bottom:1px s
 .textlink:hover{text-decoration:underline;text-underline-offset:3px}
 
 /* ---------- hero ---------- */
-.hero-grid{display:grid;grid-template-columns:1.15fr 1fr;gap:40px;align-items:center;padding-block:56px 48px}
+.hero-grid{display:grid;grid-template-columns:1.15fr 1fr;gap:40px;align-items:center;padding-block:56px 20px}
 .kicker{color:var(--muted);font-size:.92rem;margin-bottom:18px}
 .hero h1{font-size:clamp(2.1rem,4.4vw,3.3rem);max-width:19ch;margin-bottom:22px}
 .hero .sub{color:var(--muted);font-size:1.1rem;max-width:54ch;margin-bottom:30px}
 .hero-ctas{display:flex;align-items:center;gap:24px;flex-wrap:wrap}
-.seals{list-style:none;margin:36px 0 0;padding:20px 0 0;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;align-items:center;gap:16px 28px}
-.seals li{display:flex;align-items:center;gap:12px;font-size:1.05rem;font-weight:600}
-.seals img{width:56px;height:56px;animation:badge-float 2.6s ease-in-out infinite}
+.seals-row{margin-bottom:32px}
+.seals{list-style:none;margin:0;padding:18px 0 0;border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(3,minmax(0,1fr));align-items:center;gap:12px 24px}
+.seals li{display:flex;align-items:center;justify-content:center;gap:12px;font-size:1.05rem;font-weight:600;white-space:nowrap}
+.seals img{width:56px;height:56px;flex:none;animation:badge-float 2.6s ease-in-out infinite}
 .seals li:nth-child(2) img{animation-delay:.35s}
 .seals li:nth-child(3) img{animation-delay:.7s}
-.seals .seals-src{color:var(--muted);font-weight:500;font-size:.95rem}
+.seals-src{margin:10px 0 0;text-align:center;color:var(--muted);font-size:.92rem}
 @keyframes badge-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
 .hero-img{margin:0;display:flex;align-items:center;justify-content:center}
 .hero-img img{width:100%;height:auto;max-height:540px;object-fit:contain}
@@ -277,7 +278,10 @@ footer{border-top:1px solid var(--line);background:var(--alt);font-size:.95rem;c
   .panel{gap:24px 14px}
   .stats{grid-template-columns:repeat(2,1fr)}
   .stats div{border-left:0;padding-left:0}
-  .seals img{width:48px;height:48px}
+  .seals{gap:8px}
+  .seals li{flex-direction:column;gap:6px;font-size:.86rem;text-align:center;white-space:normal}
+  .seals img{width:44px;height:44px}
+  .seals-src{text-align:center}
   .ind-grid,.values{grid-template-columns:1fr}
   .rev-grid{grid-template-columns:1fr;grid-auto-rows:auto}
   .stack div{grid-template-columns:1fr;gap:2px}

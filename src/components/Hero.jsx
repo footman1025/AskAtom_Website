@@ -38,7 +38,6 @@ export default function Hero() {
             </li>
           ))}
         </ul>
-        <p className="seals-src">on Freelancer.com</p>
       </div>
 
       <div className="stats-band">

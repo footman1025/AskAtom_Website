@@ -6,7 +6,7 @@
 
 export const stats = [
   { value: '2026', label: 'founded in New Jersey' },
-  { value: '8', label: 'people on the team' },
+  { value: '16', label: 'people on the team' },
   { value: '5.0', label: 'average client rating' },
   { value: '100%', label: 'projects delivered on time' },
   { value: '100%', label: 'projects delivered on budget' },
@@ -77,11 +77,11 @@ export const industries = [
 
 export const about = {
   founded: '2026',
-  team: '8 people',
+  team: '16 people',
   offices: 'New Jersey, USA',
   story: [
     'AskAtom Solutions LLC started in New Jersey in 2026 with a simple idea: businesses should get software that fits how they work, written by people who explain things plainly and stick around after launch.',
-    'Today we are a team of 8: engineers, designers, data specialists and video editors. Being small means you talk directly to the people building your project, and nothing gets lost between a salesperson and a developer.',
+    'Today we are a team of 16: engineers, designers, data specialists and video editors. Being small means you talk directly to the people building your project, and nothing gets lost between a salesperson and a developer.',
   ],
   values: [
     { title: 'Say it plainly', text: 'Clear quotes, clear timelines, and a straight answer when something is not worth building.' },

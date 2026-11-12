@@ -79,14 +79,6 @@ export default function Contact() {
             A few lines is enough to start. We'll read it, ask questions if we need to, and get back
             to you within one business day with our take and a rough price.
           </p>
-          <p>
-            Prefer email? Write to us at <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.
-          </p>
-          <ul className="contact-facts">
-            <li>New Jersey, USA. We work US business hours.</li>
-            <li>$80/hr, with fixed quotes per milestone.</li>
-            <li>Support after launch for fixes and changes.</li>
-          </ul>
         </div>
 
         <div className="form-card">

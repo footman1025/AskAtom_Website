@@ -11,20 +11,7 @@
   --line:#e2dfd8;
   --font-display:"Source Serif 4",Georgia,"Times New Roman",serif;
   --font-body:"Instrument Sans",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
-}
-@media (prefers-color-scheme: dark){
-  :root:not([data-theme="light"]){
-    --accent:#7aa7ec; --accent-ink:#0f1420; --accent-soft:#1c2738;
-    --bg:#14171c; --surface:#1b1f26; --alt:#181c22;
-    --ink:#e8e6e1; --muted:#a2a8b3; --line:#2c313a;
-    color-scheme:dark;
-  }
-}
-:root[data-theme="dark"]{
-  --accent:#7aa7ec; --accent-ink:#0f1420; --accent-soft:#1c2738;
-  --bg:#14171c; --surface:#1b1f26; --alt:#181c22;
-  --ink:#e8e6e1; --muted:#a2a8b3; --line:#2c313a;
-  color-scheme:dark;
+  color-scheme:only light;
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;scroll-padding-top:72px}
@@ -221,8 +208,6 @@ section{padding-block:88px}
 .field textarea::placeholder{color:var(--muted);opacity:.8}
 .field input:focus,.field select:focus,.field textarea:focus{outline:2px solid var(--accent);outline-offset:-1px;border-color:transparent}
 .err{color:#c0392b;font-size:.84rem}
-:root[data-theme="dark"] .err{color:#ff8a80}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .err{color:#ff8a80}}
 .form-actions{display:flex;align-items:center;gap:14px 18px;flex-wrap:wrap;margin-top:22px}
 .form-note{color:var(--muted);font-size:.86rem}
 .form-done h3{font-size:1.4rem;margin-bottom:8px}

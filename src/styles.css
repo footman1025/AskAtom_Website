@@ -197,7 +197,7 @@ section{padding-block:88px}
 .faq-list details p{color:var(--muted);padding:0 32px 20px 0}
 
 /* cta band */
-.cta-band{position:relative;overflow:hidden;color:#1b1f24;background:#e8f3fc}
+.cta-band{position:relative;overflow:hidden;color:#1b1f24;background:#f4f1ea}
 .cta-band img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center}
 .cta-inner{position:relative;display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;padding-block:96px}
 .cta-inner h2{font-size:clamp(1.7rem,3.4vw,2.5rem);max-width:20ch}

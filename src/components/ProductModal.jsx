@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react'
+import { asset } from '../asset.js'
 
 export default function ProductModal({ category, index, onNavigate, onClose }) {
   const item = category.items[index]
@@ -28,7 +29,7 @@ export default function ProductModal({ category, index, onNavigate, onClose }) {
       <div className="modal" role="dialog" aria-modal="true" aria-label={item.title} onClick={(e) => e.stopPropagation()}>
         <button ref={closeRef} className="m-close" onClick={onClose} aria-label="Close">✕</button>
         <div className="m-img">
-          <img src={item.img} alt={item.alt} />
+          <img src={asset(item.img)} alt={item.alt} />
         </div>
         <div className="m-body">
           <span className="m-tag">{category.label}</span>

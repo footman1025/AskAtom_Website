@@ -1,4 +1,5 @@
 import { caseStudies } from '../data/company.js'
+import { asset } from '../asset.js'
 import Fill from './Fill.jsx'
 
 export default function CaseStudies() {
@@ -12,7 +13,7 @@ export default function CaseStudies() {
         <div className="cases">
           {caseStudies.map((c, i) => (
             <article className="case" key={i}>
-              <img src={c.img} alt={c.alt} loading="lazy" />
+              <img src={asset(c.img)} alt={c.alt} loading="lazy" />
               <div className="case-body">
                 <p className="case-meta">
                   <Fill text={c.client} /> · {c.industry} · <Fill text={c.year} />

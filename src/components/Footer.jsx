@@ -1,10 +1,12 @@
+import { asset } from '../asset.js'
+
 export default function Footer() {
   return (
     <footer>
       <div className="wrap foot">
         <div className="foot-brand">
-          <a className="foot-logo" href="#top">
-            <img src="favicon.png" alt="" width="36" height="36" />
+          <a className="foot-logo" href="/">
+            <img src={asset('favicon.png')} alt="" width="36" height="36" />
             <span>AskAtom Solutions LLC</span>
           </a>
           <p>Websites, apps, and automation for businesses in New Jersey.</p>

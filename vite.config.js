@@ -1,8 +1,8 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// base './' so the built site works from any folder or static host
+// Root base so /projects/automation and the other section URLs load assets from the site root.
 export default defineConfig({
   plugins: [react()],
-  base: './',
+  base: '/',
 })

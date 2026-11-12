@@ -1,4 +1,5 @@
 import { stats, clients } from '../data/company.js'
+import { asset } from '../asset.js'
 import Fill from './Fill.jsx'
 
 const badges = [
@@ -25,7 +26,7 @@ export default function Hero() {
           </div>
         </div>
         <figure className="hero-img">
-          <img src="images/site/hero-mascot.png" alt="AskAtom mascot with a laptop, surrounded by app, cloud, and automation icons" />
+          <img src={asset('images/site/hero-mascot.png')} alt="AskAtom mascot with a laptop, surrounded by app, cloud, and automation icons" />
         </figure>
       </div>
 
@@ -33,7 +34,7 @@ export default function Hero() {
         <ul className="seals" aria-label="Freelancer.com credentials">
           {badges.map((b) => (
             <li key={b.label}>
-              <img src={b.img} alt="" width="56" height="56" />
+              <img src={asset(b.img)} alt="" width="56" height="56" />
               {b.label}
             </li>
           ))}

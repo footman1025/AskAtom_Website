@@ -1,4 +1,5 @@
 import { about } from '../data/company.js'
+import { asset } from '../asset.js'
 import Fill from './Fill.jsx'
 
 export default function About() {
@@ -6,7 +7,7 @@ export default function About() {
     <section id="company">
       <div className="wrap about">
         <figure className="about-img">
-          <img src="images/site/about-team.jpg" alt="The AskAtom team reviewing a product on a whiteboard in the office" loading="lazy" />
+          <img src={asset('images/site/about-team.jpg')} alt="The AskAtom team reviewing a product on a whiteboard in the office" loading="lazy" />
         </figure>
         <div className="about-text">
           <h2>About the company</h2>

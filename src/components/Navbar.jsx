@@ -1,9 +1,11 @@
+import { asset } from '../asset.js'
+
 export default function Navbar() {
   return (
     <header>
       <div className="wrap nav">
-        <a className="logo" href="#top" aria-label="AskAtom Solutions LLC home">
-          <img className="mark" src="favicon.png" alt="" width="40" height="40" />
+        <a className="logo" href="/" aria-label="AskAtom Solutions LLC home">
+          <img className="mark" src={asset('favicon.png')} alt="" width="40" height="40" />
           <span className="logo-name">AskAtom Solutions LLC</span>
         </a>
         <nav className="navlinks" aria-label="Main">

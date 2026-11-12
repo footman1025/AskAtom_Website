@@ -4,6 +4,7 @@ import { asset } from '../asset.js'
 import ProductModal from './ProductModal.jsx'
 
 const HOME_TITLE = 'AskAtom Solutions LLC · Software development in New Jersey'
+const PREVIEW_COUNT = 8
 
 function readPath() {
   return window.location.pathname.replace(/\/+$/, '') || '/'
@@ -15,9 +16,54 @@ function categoryFromPath(path) {
   return categories.find((c) => c.id === match[1]) || null
 }
 
+function previewGroups(expanded) {
+  if (expanded) return categories
+  const groups = []
+  let left = PREVIEW_COUNT
+  for (const group of categories) {
+    if (left <= 0) break
+    const items = group.items.slice(0, left)
+    left -= items.length
+    groups.push({ ...group, items })
+  }
+  return groups
+}
+
+function AllProjects({ expanded, onExpand, cards }) {
+  const groups = previewGroups(expanded)
+  const shown = groups.reduce((n, group) => n + group.items.length, 0)
+  const total = categories.reduce((n, group) => n + group.items.length, 0)
+  const more = total - shown
+
+  return (
+    <>
+      <p className="tab-summary">Every service, with the projects we take on in each one.</p>
+      <div className="project-groups">
+        {groups.map((group) => (
+          <div className="project-group" key={group.id} id={`projects-${group.id}`}>
+            <h3>{group.label}</h3>
+            <p className="tab-summary">{group.summary}</p>
+            {cards(group)}
+          </div>
+        ))}
+      </div>
+      {!expanded && more > 0 && (
+        <button type="button" className="archive" onClick={onExpand}>
+          <span>
+            <span className="archive-label">View the full archive</span>
+            <span className="archive-more">{more} more {more === 1 ? 'project' : 'projects'}</span>
+          </span>
+          <span className="archive-arrow" aria-hidden="true">↓</span>
+        </button>
+      )}
+    </>
+  )
+}
+
 export default function Work() {
   const [path, setPath] = useState(readPath)
   const [open, setOpen] = useState(null)
+  const [expanded, setExpanded] = useState(false)
 
   useEffect(() => {
     const onPop = () => setPath(readPath())
@@ -42,6 +88,10 @@ export default function Work() {
       if (link) link.href = 'https://askatomsolutions.com/'
     }
   }, [showAll, category])
+
+  useEffect(() => {
+    setExpanded(false)
+  }, [path])
 
   useEffect(() => {
     if (path === '/') return
@@ -105,18 +155,7 @@ export default function Work() {
         </div>
 
         {(showAll || (!category && path.startsWith('/projects/'))) ? (
-          <>
-            <p className="tab-summary">Every service, with the projects we take on in each one.</p>
-            <div className="project-groups">
-              {categories.map((group) => (
-                <div className="project-group" key={group.id} id={`projects-${group.id}`}>
-                  <h3>{group.label}</h3>
-                  <p className="tab-summary">{group.summary}</p>
-                  {cards(group)}
-                </div>
-              ))}
-            </div>
-          </>
+          <AllProjects expanded={expanded} onExpand={() => setExpanded(true)} cards={cards} />
         ) : (
           <>
             <p className="tab-summary">{(category || categories[0]).summary}</p>

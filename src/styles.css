@@ -97,6 +97,11 @@ section{padding-block:88px}
 .panel{display:grid;grid-template-columns:repeat(2,1fr);gap:40px 32px}
 .project-groups{display:flex;flex-direction:column;gap:64px}
 .project-group > h3{font-family:var(--font-display);font-size:1.55rem;font-weight:600;margin-bottom:8px}
+.archive{display:flex;align-items:center;justify-content:space-between;gap:16px;width:100%;margin-top:40px;padding:20px 22px;border:1px solid var(--line);border-radius:6px;background:transparent;color:var(--ink);font:inherit;cursor:pointer;text-align:left}
+.archive:hover{border-color:var(--ink)}
+.archive-label{font-weight:600}
+.archive-more{margin-left:10px;font-weight:400;color:var(--muted);font-size:.9rem}
+.archive-arrow{flex:none;font-size:1.15rem;line-height:1}
 .card{display:flex;flex-direction:column;gap:12px;padding:0;background:none;border:0;cursor:pointer;text-align:left;font:inherit;color:inherit}
 .card img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:3px;background:var(--alt)}
 .card-title{font-weight:600;font-size:1.2rem;line-height:1.35}
@@ -284,6 +289,8 @@ footer{border-top:1px solid var(--line);background:var(--alt);font-size:.95rem;c
   .stack div{grid-template-columns:1fr;gap:2px}
   .case-results{grid-template-columns:repeat(3,1fr);gap:10px}
   .cta-inner{padding-block:64px}
+  .archive{align-items:flex-start}
+  .archive-more{display:block;margin-left:0;margin-top:4px}
   .foot-cols{grid-template-columns:1fr 1fr}
   .foot-cols nav:last-child{grid-column:1 / -1}
 }

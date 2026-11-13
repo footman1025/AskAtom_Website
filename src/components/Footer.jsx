@@ -11,7 +11,6 @@ export default function Footer() {
           </a>
           <p>Websites, apps, and automation for businesses in New Jersey.</p>
           <p className="foot-place">New Jersey, USA</p>
-          <a className="foot-mail" href="mailto:support@askatomsolutions.com">support@askatomsolutions.com</a>
         </div>
 
         <div className="foot-cols">

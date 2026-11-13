@@ -222,8 +222,6 @@ footer{border-top:1px solid var(--line);background:var(--alt);font-size:.95rem;c
 .foot-logo{display:flex;align-items:center;gap:10px;color:var(--ink);text-decoration:none;font-weight:600;font-size:1.05rem;line-height:1.2}
 .foot-logo img{width:36px;height:36px;flex:none;display:block}
 .foot-place{color:var(--muted)}
-.foot-mail{color:var(--accent);text-decoration:none}
-.foot-mail:hover{text-decoration:underline;text-underline-offset:3px}
 .foot-cols{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px 24px}
 .foot-cols nav{display:flex;flex-direction:column;align-items:flex-start;gap:8px}
 .foot-label{margin:0 0 4px;font-size:.75rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--ink)}

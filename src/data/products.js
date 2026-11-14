@@ -273,6 +273,33 @@ const categories = [
       },
     ],
   },
+  {
+    id: 'design',
+    label: 'Design',
+    summary: 'Children\'s books, characters and vector art, drawn so the same look holds from the first page to the last.',
+    items: [
+      {
+        title: 'Children\'s books',
+        alt: 'An open picture book on a pink table, with a story page beside an illustration of a goddess and a child',
+        desc: 'Full picture books, from the cover through the last page. The characters stay recognizable, the type stays easy to read, and the files are ready for print or for a screen.',
+      },
+      {
+        title: 'Picture-book scenes',
+        alt: 'A watercolor of a father and a child sharing a teddy bear in a sunlit living room',
+        desc: 'Single scenes and short sequences in watercolor or a digital look that feels painted. Useful for a spread, a poster, or the pages that carry the story.',
+      },
+      {
+        title: 'Character design',
+        alt: 'A 3D character of a smiling child in a striped hoodie, shown full length',
+        desc: 'A character built so they look like the same person in every picture: face, clothes, and the way they stand. We start with a few views, then use that set for the book, the cover, and anything else that needs them.',
+      },
+      {
+        title: 'Vector illustrations',
+        alt: 'A flat vector scene of a worker painting a house, with a ladder and paint cans',
+        desc: 'Clean vector art for a service, an app, or a website. Simple shapes, a small color set, and files you can resize without them going soft.',
+      },
+    ],
+  },
 ]
 
 // image paths follow the <category>-<n>.jpg naming in public/images
